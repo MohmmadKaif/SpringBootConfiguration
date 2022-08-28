@@ -1,0 +1,9 @@
+This project is for reference of spring boot.
+There were many errors related to configuration before running this project.
+Make sure you are running your project on right port.By default the port is 8080.
+But if you face any error change the port to 8081 or something else. 
+
+***********************************VERY VERY VERY IMPORTANT*****************************************
+Always have all your project package inside the base package.The base package is the package which is created when you create hte project.
+For Example:In this project the base package name is com.example.SpringTest. And all other packages are inside this package.
+This is beacause spring boot uses an auto configuration for component scanning, and thus component scanning starts from base package..
